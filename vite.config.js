@@ -7,7 +7,7 @@ export default defineConfig({
 	plugins: [vue(), UnoCSS()],
 	base: './',
 	build: {
-		outDir: 'dist/aircondition-status-diagnosis',
+		outDir: 'dist/operation-organization-terminal',
 		rollupOptions: {
 			output: {
 				entryFileNames: '[name].js',
