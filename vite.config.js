@@ -7,7 +7,7 @@ export default defineConfig({
 	plugins: [vue(), UnoCSS()],
 	base: './',
 	build: {
-		outDir: 'dist/operation-organization-terminal',
+		outDir: 'dist/vehicle-system-overview',
 		rollupOptions: {
 			output: {
 				entryFileNames: '[name].js',
